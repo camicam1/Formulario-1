@@ -1,0 +1,108 @@
+# Formulario 1 html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=2q', initial-scale=>">
+    <link rel="stylesheet" type="text/css" href="namoradinho para cami.css" media="screen">
+
+    <title>Namoradinho pra Cami</title>
+</head>
+<body>
+    <div id="checkbox"> 
+        <h1> Cadastro dos intressados</h1><br>
+        <p>Camila Almeida, nascida em 13 de outubro de 2002, atualmente com 18 anos<br>esta em busca de um namoradinho<br>para fazer boiolices, interessados preencher o formulário a seguir:</p>
+        <br>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div id="checkbox">
+                <label for="nome">Nome</label><br>
+                <input type="text" nome="Nome" id="Nome" required>
+            
+            </div>
+            <div id="checkbox"> 
+            <label for="sobrenome"> Sobrenome</label><br>
+            <input type="text" nome="sobrenome" id="sobrenome" required>
+         </div>
+        </fieldset>
+        <div id="checkbox">
+            <label for="whastapp">Whatsapp</label><br>
+            <input type="number" nome="whatsapp" id="whatsapp">
+        </div>
+        <div id="checkbox">
+            <label for="instagram">Instagram</label><br>
+            <input type="text" nome="instagram" id="instagram">
+        </div>
+        <div id="checkbox"> 
+           <br> <label for="É maior de 18 anos?">É maior de 18 anos?</label required>
+                <input type="checkbox" nome="idade +" id="sim" required>
+                <label>Sim</label required>
+                    <input type="checkbox" nome="idade-" id="não">
+                    <label>Não</label>
+        </div>
+        <div id="checkbox">
+         <br>   <label for="atualmente o que você faz?">Atualmente o que você faz?</label>
+            <select id="atualmente o que você faz?">
+                <option selected disabled value="">Selecione</option>
+                <option>Estuda</option>
+                <option>Trabalha</option>
+                <option>Estuda e Trabalha</option>
+                <option>Nada</option>
+            </select>
+        </div>
+<fieldset class="grupo">
+    <div id="checkbox">
+      <br>  <label> Selecione as atividades que você faz durante o dia</label>
+        <input type="checkbox" nome="atividade 1" value="Estuda">
+        <label>Estuda</label>
+        <input type="checkbox" nome="atividade 2" value="Joga">
+        <label>Joga</label>
+        <input type="checkbox" nome="atividade 3" value="Assiste">
+        <label>Assiste</label>
+        <input type="checkbox" nome="atividade 4" value="Brinca com o animal de estimação">
+        <label>Brinca com o animal de estimação</label>
+    </div>
+</fieldset>
+<div id="checkbox">Você seria um bom namoradinho? Justifique sua resposta.
+<textarea row="6" style="widht:26em" id="namoradinho" nome="namoradinho"></textarea>
+        </div>
+        <fieldset class="grupo">
+            <div id="checkbox">
+             <br>   <label>Selecione os seus jogos favoritos (caso não jogue, favor ignorar esse campo)</label>
+                <input type="checkbox" nome="jogo 1" value="League of Legends">
+                <label>League of Legends</label>
+                <input type="checkbox" nome="jogo 2" id="Valorant">
+                <label>Valorant</label>
+                <input type="checkbox" nome="jogo 3" id="Call of Duty">
+                <label>Call of Duty</label>
+                <input type="checkbox" nome="jogo 4" id="Counter-Strike">
+                <label>Counter-Strike</label>
+                <input type="checkbox" nome="jogo 5" id="Stardew Valley">
+                <label>Stardew Valley</label>
+               <input type="checkbox" nome="jogo 6" id="Outro(s)">
+               <label>Outro(s)</label>
+ </div>
+  <div id="checkbox"> Insira nesse campo o nome de outros jogos que você gosta:
+      <textarea row="4" style="width: 22em" id="outros jogos"></textarea>
+  </div>
+
+             </fieldset>
+             <div id="checkbox">
+              <br>   <label>Vai ter paciencia pra me ensinar a jogar?</label required>
+                 <input type="checkbox" nome="caixa Sim" value="Sim">
+                 <label>Sim</label>
+                 <input type="checkbox" nome="caixa Claro" value="Claro">
+                 <label>Claro</label>
+                 <input type="checkbox" nome="caixa Óbvio" value="Óbvio">
+                 <label>Óbvio</label>
+                 <input type="checkbox" nome="caixa Posso pensar" value="Posso pensar">
+                 <label>Posso pensar</label>
+                 <input type="checkbox" nome="caixa Nunca" value="Nunca">
+                 <label>Nunca</label>
+             </div>
+         <br>   <p>Verifique se respondeu todas as perguntas e envie seu formulario. Obrigada pela atenção!</p>
+         <br>   <button class="botão" type="submit">Enviar</button>
+    </form>
+</body>
+</html>
